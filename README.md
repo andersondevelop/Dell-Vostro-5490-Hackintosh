@@ -2,6 +2,8 @@
 
 Working OpenCore EFI for the **Dell Vostro 14 5480** running **macOS Sequoia**. Nearly everything works. Shared to save others the trial-and-error.
 
+![macOS Sequoia on Dell Vostro 14 5480](MacOSSequoia.png)
+
 > ⚠️ **READ THIS FIRST — you MUST generate your own SMBIOS before booting.** The `SystemSerialNumber`, `MLB`, `SystemUUID` and `ROM` in this EFI are **real serials from another machine**. Booting with these will break iMessage/FaceTime and can burn a serial. See [Setup](#setup) below.
 
 ## Hardware
